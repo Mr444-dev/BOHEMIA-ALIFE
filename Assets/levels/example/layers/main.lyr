@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectLayer>
+  <Layer Name="Main" FullName="Main" GUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+    <LayerObjects>
+      <Object Type="EntityWithComponent" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="9edc1e67-f6e5-006b-5f32-bede3067e6b5" Name="EnvironmentProbe" Pos="284.85049,269.35068,77.251999" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="ebdedb14-d98a-fbb8-a059-c3162085072e" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Active="true">
+              <BoxSize x="1000" y="1000" z="1000" />
+              <Options IgnoreVisAreas="false" SortPriority="0" AttenuationFalloffMax="1" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" BoxProjection="false" />
+              <Color DiffMult="1" SpecMult="1">
+                <Color r="1" g="1" b="1" a="1" />
+              </Color>
+              <Generation GeneratedCubemapPath="textures\cubemaps\example\EnvironmentProbe_cm.tif" AutoLoad="true" Resolution="Low" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="82fa5350-322f-4760-b01d-d6448d3ddde8" Name="BOHEMIA Forge" Pos="62,43,3" Rotate="1,0,0,0" Scale="12,8,3" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="56656df9-23b9-45eb-a59f-3ca6ec980d42" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="7f8e6df0-0cf5-4fdf-88c7-96e03e039e35" Name="BOHEMIA Forge Roof" Pos="62,43,6.4" Rotate="1,0,0,0" Scale="13,9,1.2" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="5c1a9bf9-1c9c-4d84-bdce-73fbf335ba9d" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="73a624cd-7aac-4868-a3df-23b3733b803e" Name="BOHEMIA Forge Anvil" Pos="66,49,1.3" Rotate="1,0,0,0" Scale="1.8,1.1,0.9" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="f2516b39-ca04-4421-a0db-1f26cdc6279a" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="50a20da2-9a5c-4eaa-b8c1-50f72042b676" Name="BOHEMIA Forge Workbench" Pos="63,47,0.8" Rotate="1,0,0,0" Scale="2.2,1.4,0.7" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="0e6c55bc-d9b3-408c-b694-44a6c14ccae4" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="31291684-d4af-4d94-9619-0d59476869d5" Name="BOHEMIA Tavern" Pos="109,32,3" Rotate="1,0,0,0" Scale="13,9,3" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="e417280f-0303-4567-8176-9c94f2f71c3b" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="b7b43e3f-994f-4c8e-a31d-fa659ae2cd6a" Name="BOHEMIA Tavern Roof" Pos="109,32,6.4" Rotate="1,0,0,0" Scale="14,10,1.2" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="6df9a0bb-e669-49a3-9e25-31f8ce3d514d" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="f290f496-bd9e-4b8a-8268-60845948add3" Name="BOHEMIA Tavern Bar" Pos="109,36,1" Rotate="1,0,0,0" Scale="7,0.7,0.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="6d147dfe-f879-43b0-b82d-e0b7ae68a65b" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="312625a7-16d9-4c8c-9100-f5a1fb269056" Name="BOHEMIA Guardhouse" Pos="160,43,3" Rotate="1,0,0,0" Scale="11.5,8.5,3" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="3bee0431-d824-442f-8c39-2126373dceaa" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="39c7a285-dc90-459a-8502-9aa1639c5a6a" Name="BOHEMIA Guardhouse Roof" Pos="160,43,6.4" Rotate="1,0,0,0" Scale="12.5,9.5,1.2" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="da21ceb0-caac-4769-bfcc-34699ab69f76" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="9abd9397-012f-424c-a619-8640c37f26f2" Name="BOHEMIA Market Stall 1" Pos="101,75,1" Rotate="1,0,0,0" Scale="2.5,1.7,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="cac66270-4228-4455-9cf5-7cc4eb543dab" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="15e9b56c-cff3-490f-945a-f337903c29e3" Name="BOHEMIA Market Stall 2" Pos="110,71,1" Rotate="1,0,0,0" Scale="2.5,1.7,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="87b28114-7f71-4535-a2de-4c6065a235dc" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="00996cc9-7c0e-4604-9aff-fe601ed52907" Name="BOHEMIA Market Stall 3" Pos="120,78,1" Rotate="1,0,0,0" Scale="2.5,1.7,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="90dea247-12e0-4909-a473-a47d372c1115" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="b32d7734-c942-4609-8b9f-becda66c54e8" Name="BOHEMIA Market Square" Pos="110,76,0.08" Rotate="1,0,0,0" Scale="19,11.5,0.08" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="30c40393-7c18-4fdc-894b-2cec30a2ab61" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="e3540ed3-174c-4dac-97e4-29514ecf6459" Name="BOHEMIA Guard Post" Pos="157,51,1.8" Rotate="1,0,0,0" Scale="1.2,1.2,1.8" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="1b588740-fe01-4ee8-9ba9-dda2292e8226" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="da7ea0ec-8019-436d-b3b7-5d99c7e08d9f" Name="BOHEMIA Dice Table 1" Pos="103,31,0.9" Rotate="1,0,0,0" Scale="1.3,1.3,0.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="4c0e7683-811c-4787-9cde-c611715a5104" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="ed1985d1-ae32-4bd0-9fc1-13d02b230b01" Name="BOHEMIA Dice Table 2" Pos="111,30,0.9" Rotate="1,0,0,0" Scale="1.3,1.3,0.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="92369f5f-c9e1-452e-b102-eea7761404be" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="14c6a815-8112-4d75-9d3a-1d1d768b650a" Name="BOHEMIA Dice Table 3" Pos="117,34,0.9" Rotate="1,0,0,0" Scale="1.3,1.3,0.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="40bd00d5-fe62-4026-ad55-863aab65a524" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_cylinder.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+      <Object Type="EmptyEntity" Layer="Main" LayerGUID="7dc816f2-d365-4bae-9111-912ced6e8f6a" Id="118530d9-df25-4875-8995-4523aa053889" Name="BOHEMIA Gate" Pos="181,83,3" Rotate="1,0,0,0" Scale="1,8,3" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+        <Properties />
+        <Components>
+          <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="87446821-e1f7-42b3-bbe3-c65f6798e75d" Name="" UserAdded="true">
+            <Transform>
+              <translation>
+                <position>
+                  <element element="0" />
+                  <element element="0" />
+                  <element element="0" />
+                </position>
+              </translation>
+              <rotation x="0" y="-0" z="0" />
+              <scale>
+                <element element="1" />
+                <element element="1" />
+                <element element="1" />
+              </scale>
+            </Transform>
+            <properties Type="RenderAndCollider" FilePath="engineassets/objects/primitive_box.cgf" Material="objects/helper_illum.mtl">
+              <Render ShadowSpec="Low" IgnoreVisArea="false" ViewDistRatio="100" LODDistance="100" GIMode="None" />
+              <Physics Mass="10" Density="0" />
+            </properties>
+          </Component>
+        </Components>
+      </Object>
+    </LayerObjects>
+  </Layer>
+</ObjectLayer>

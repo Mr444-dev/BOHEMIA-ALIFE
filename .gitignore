@@ -1,0 +1,15 @@
+/build/
+/build-*/
+/out/
+/bin/
+/logbackups/
+/.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exe
