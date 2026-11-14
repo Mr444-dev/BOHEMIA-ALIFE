@@ -64,6 +64,6 @@ The simulation and combat values are portfolio-demo choices. The armor model is 
 
 ## CRYENGINE 5.7 integration status
 
-`Code/Components/` contains Schematyc entity-component adapter source for the simulation, debug rendering, and primitive scene entities. `Game.cryproject` and a sample level are included. The standalone CMake build does not compile or link a CRYENGINE game plugin. This checkout's `bin/win_x64/Game.dll` is the engine template binary, so the adapters are **not yet a verified runnable Sandbox game**. Linking and running them requires a compatible CRYENGINE 5.7 project build with the matching engine libraries. The standalone Win32 simulator is the working interactive demo and does not depend on that integration.
+`Code/Components/` contains Schematyc entity-component adapter source for the simulation, debug rendering, and primitive scene entities. `Game.cryproject` and a sample level are included. The standalone CMake build does not compile or link a CRYENGINE game plugin. `Game.cryproject` refers to `bin/win_x64/Game.dll`, but that binary is omitted from this repository; the local copy was only the engine template. The adapters are **not yet a verified runnable Sandbox game**. Linking and running them requires a compatible CRYENGINE 5.7 project build with the matching engine libraries. The standalone Win32 simulator is the working interactive demo and does not depend on that integration.
 
 This is an independent portfolio project; it is not affiliated with or derived from any studio's proprietary game code.
