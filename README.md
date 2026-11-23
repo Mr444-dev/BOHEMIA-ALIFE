@@ -68,6 +68,6 @@ The simulation and combat values are portfolio-demo choices. The armor model is 
 
 This is an independent portfolio project; it is not affiliated with or derived from any studio's proprietary game code.
 
-## Authorship and license
+## Authorship and reuse
 
-Original source code in this repository authored by Michał Rusinek (Mr444-dev) is licensed under MIT. See [LICENSE](LICENSE). This grant excludes CRYENGINE, its SDK and template content, third-party dependencies and assets, and trademarks; those remain under their own terms.
+Original source code in this repository authored by Michał Rusinek (Mr444-dev) is not offered under an open-source license; all rights are reserved. See [LICENSE](LICENSE). CRYENGINE, its SDK and template content, third-party dependencies and assets, and trademarks are excluded and remain under their own terms.
